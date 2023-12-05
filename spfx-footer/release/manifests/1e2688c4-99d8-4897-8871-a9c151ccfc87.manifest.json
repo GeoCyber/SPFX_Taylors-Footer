@@ -14,7 +14,7 @@
     "scriptResources": {
       "message-banner": {
         "type": "path",
-        "path": "message-banner_ae4f8abf19b0d960c907.js"
+        "path": "message-banner.js"
       },
       "@microsoft/sp-application-base": {
         "type": "component",
@@ -33,7 +33,7 @@
       },
       "MessageBannerApplicationCustomizerStrings": {
         "type": "path",
-        "path": "MessageBannerApplicationCustomizerStrings_en-us_0685e35e32cd5ac5a54b19f77001b237.js"
+        "path": "MessageBannerApplicationCustomizerStrings_en-us.js"
       },
       "react": {
         "type": "component",
