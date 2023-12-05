@@ -1,0 +1,1 @@
+{"version":3,"file":"IMessageBannerProperties.js","sourceRoot":"","sources":["../../src/models/IMessageBannerProperties.ts"],"names":[],"mappings":"AAaA,MAAM,CAAC,IAAM,kBAAkB,GAA6B;IAC1D,OAAO,EAAE,uGAAuG;IAChH,SAAS,EAAE,SAAS;IACpB,eAAe,EAAE,SAAS;IAC1B,cAAc,EAAE,EAAE;IAClB,cAAc,EAAE,EAAE;IAClB,gBAAgB,EAAE,IAAI;IACtB,8BAA8B,EAAE,KAAK;IACrC,kBAAkB,EAAE,KAAK;CAC1B,CAAC"}

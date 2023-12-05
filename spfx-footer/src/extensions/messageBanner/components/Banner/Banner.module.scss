@@ -1,0 +1,78 @@
+.CustomMsgBannerContainer{
+  background: "[theme: themePrimary, default: #03787c]";
+
+}
+
+
+.BannerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  cursor: default;
+  background: "[theme: themePrimary, default: #03787c]";
+  border-bottom: 1px solid #eaeaea;
+  height: 0px;
+  max-width: 100% !important;
+
+  div{
+  color: rgb(255 255 255) !important;
+
+  }
+
+  i.ms-Button-icon{
+    color: rgb(255 255 255) !important;
+  }
+
+  .AdminUserVisibilityBadge {
+    display: flex;
+    align-items: center;
+    height: 18px;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 16px;
+    background-color: rgb(240, 144, 106);
+    color: black;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    transform: translate(-1%,-50%);
+  }
+}
+
+
+@media(max-width: 480px) {
+  .BannerContainer {
+    // height: 18px;
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 600px) {
+  .BannerContainer {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 768px) {
+  .BannerContainer {
+    height: 70px !important;
+    padding: 5px 50px;
+  }
+}
+
+@media(max-width: 992px) {
+  .BannerContainer {
+
+  }
+}
+
+@media(max-width: 1200) {
+  .BannerContainer {
+
+  }
+}
+
+

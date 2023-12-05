@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://taylorsedu.sharepoint.com/sites/THE-STG/SitePages/Home.aspx",
+      "customActions": {
+        "1e2688c4-99d8-4897-8871-a9c151ccfc87": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "message": "Copyright © 2023 Taylor’s Education Sdn. Bhd. Company Registration No. 199601009083 (381431-M). All Rights Reserved",
+            "textColor": "##ffffff",
+            "backgroundColor": "[theme: themePrimary, default: #03787c]",
+            "textFontSizePx": 15,
+            "bannerHeightPx": 30,
+            "visibleStartDate": null,
+            "enableSetPreAllocatedTopHeight": false,
+            "disableSiteAdminUI": false
+          }
+        }
+      }
+    }
+  }
+}
